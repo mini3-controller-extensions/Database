@@ -1,0 +1,21 @@
+{
+  "name": "mini3-controller-extensions/database",
+  "description": "mini3 controller extension for easy database management",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Emanuel Bitkov",
+      "email": "crystlbrd@bitkov.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "crystlbrd/databasehandler": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mini3ControllerExtensions\\Database\\": "src/"
+    }
+  }
+}
